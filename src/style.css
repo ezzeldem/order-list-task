@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 24px;
+}
+
+@media (max-width: 772px) {
+  .container {
+    width: 100%;
+  }
+}
