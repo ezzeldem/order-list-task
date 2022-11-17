@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { DragDropContext, Draggable, Droppable } from "react-beautiful-dnd";
-import Container from "./components/container/index.jsx";
+import Container from "./components/container";
 import { data } from "./data.js";
 import "./style.css";
 
@@ -20,8 +20,6 @@ function ReorderableItems() {
       return nums;
     });
   }
-
-  console.log({ list });
 
   return (
     <>

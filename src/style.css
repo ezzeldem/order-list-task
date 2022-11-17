@@ -14,6 +14,14 @@ body {
   margin-bottom: 24px;
 }
 
+.list-item {
+  border-radius: inherit;
+  margin-bottom: 12px;
+  padding: 40px;
+  margin-inline: auto;
+  background-color: #fff;
+}
+
 @media (max-width: 772px) {
   .container {
     width: 100%;
